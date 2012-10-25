@@ -1,0 +1,51 @@
+<div class='wrap'><h2>{{title}}</h2>
+    {{{Message}}}
+     <table class='widefat'><thead><tr>
+        <th scope='col'></th>
+        <th scope='col'>{{totalTitle}}</th>
+        <th scope='col'>{{lastMonthTitle}}<br /><font size=1>{{lastMonthValue}}</font></th>
+        <th scope='col'>{{thisMonthTitle}}<br /><font size=1>{{thisMonthValue}}</font></th>
+        <th scope='col'>{{targetTitle}}<br /><font size=1>{{targetValue}}</font></th>
+        <th scope='col'>{{yesterdayTitle}}<br /><font size=1>{{yesterdayValue}}</font></th>
+        <th scope='col'>{{todayTitle}}<br /><font size=1>{{todayValue}}</font></th>
+    </tr></thead>
+
+    <tbody id='the-list'>
+         <tr><td><div style='background:{{unique_color}};width:10px;height:10px;float:left;margin-top:4px;margin-right:5px;'></div>{{visitorsTitle}}</td>
+             <td>{{visitorsTotal}}</td>
+             <td>{{visitorsLastMonth}}</td>
+             <td>{{visitorsThisMonth}}{{{visitorsMonthlyPercent}}}</td>
+             <td>{{{visitorsAverageMonth}}}</td>
+             <td>{{visitorsYesterday}}</td>
+             <td>{{visitorsToday}}</td>
+         </tr>
+
+         <tr><td><div style='background:{{web_color}};width:10px;height:10px;float:left;margin-top:4px;margin-right:5px;'></div>{{pageviewsTitle}}</td>
+             <td>{{pageviewsTotal}}</td>
+             <td>{{pageviewsLastMonth}}</td>
+             <td>{{pageviewsThisMonth}}{{{pageviewsMonthlyPercent}}}</td>
+             <td>{{{pageviewsAverageMonth}}}</td>
+             <td>{{pageviewsYesterday}}</td>
+             <td>{{pageviewsToday}}</td>
+         </tr>
+
+         <tr><td><div style='background:{{spider_color}};width:10px;height:10px;float:left;margin-top:4px;margin-right:5px;'></div>{{spidersTitle}}</td>
+             <td>{{spidersTotal}}</td>
+             <td>{{spidersLastMonth}}</td>
+             <td>{{spidersThisMonth}}{{{spidersMonthlyPercent}}}</td>
+             <td>{{{spidersAverageMonth}}}</td>
+             <td>{{spidersYesterday}}</td>
+             <td>{{spidersToday}}</td>
+         </tr>
+
+         <tr><td><div style='background:{{feed_color}};width:10px;height:10px;float:left;margin-top:4px;margin-right:5px;'></div>{{feedsTitle}}</td>
+             <td>{{feedsTotal}}</td>
+             <td>{{feedsLastMonth}}</td>
+             <td>{{feedsThisMonth}}{{{feedsMonthlyPercent}}}</td>
+             <td>{{{feedsAverageMonth}}}</td>
+             <td>{{feedsYesterday}}</td>
+             <td>{{feedsToday}}</td>
+         </tr>
+
+     </table>
+    <br/>

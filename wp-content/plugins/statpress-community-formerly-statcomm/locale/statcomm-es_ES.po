@@ -1,0 +1,997 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: statpress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-06 21:30-0300\n"
+"PO-Revision-Date: 2012-05-06 21:31-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: f:/XAMPP/htdocs/wpr2012/wp-content/plugins/statcomm/\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+": \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: statcomm.php:117
+msgid "Details"
+msgstr "Detalles"
+
+#: statcomm.php:118
+#: classes/statcommspy.php:60
+msgid "Spy"
+msgstr "Espía"
+
+#: statcomm.php:119
+#: statcomm.php:987
+#: statcomm.php:1066
+#: classes/utilities.php:72
+#: classes/utilities.php:101
+msgid "Search"
+msgstr "Buscar"
+
+#: statcomm.php:120
+#: statcomm.php:221
+msgid "Export"
+msgstr "Exportar"
+
+#: statcomm.php:121
+#: statcomm.php:134
+msgid "Options"
+msgstr "Opciones"
+
+#: statcomm.php:122
+msgid "User Agents"
+msgstr "Navegador/cliente"
+
+#: statcomm.php:123
+#, fuzzy
+msgid "HELP & Support"
+msgstr "Soporte"
+
+#: statcomm.php:149
+msgid "Error: not IP provided"
+msgstr "Error: No se ha indicado una IP"
+
+#: statcomm.php:187
+msgid "HELP"
+msgstr "AYUDA"
+
+#: statcomm.php:208
+msgid "Export stats to text file"
+msgstr "Exportar estadísticas a un archivo de texto"
+
+#: statcomm.php:212
+#: statcomm.php:689
+msgid "From"
+msgstr "Desde"
+
+#: statcomm.php:215
+msgid "To"
+msgstr "Al"
+
+#: statcomm.php:218
+msgid "Fields delimiter"
+msgstr "Delimitador de campos"
+
+#: statcomm.php:305
+msgid "Overview"
+msgstr "Sumario"
+
+#: statcomm.php:308
+msgid "Total"
+msgstr "Total"
+
+#: statcomm.php:309
+msgid "Last month"
+msgstr "Mes anterior"
+
+#: statcomm.php:310
+#: statcomm.php:311
+msgid "This month"
+msgstr "Este mes"
+
+#: statcomm.php:311
+msgid "Target"
+msgstr "Cálculo"
+
+#: statcomm.php:312
+msgid "Yesterday"
+msgstr "Ayer"
+
+#: statcomm.php:313
+msgid "Today"
+msgstr "Hoy"
+
+#: statcomm.php:319
+msgid "Visitors"
+msgstr "Visitantes"
+
+#: statcomm.php:343
+msgid "Pageviews"
+msgstr "Páginas vistas"
+
+#: statcomm.php:371
+#: statcomm.php:937
+msgid "Spiders"
+msgstr "Rastreadores"
+
+#: statcomm.php:399
+#: statcomm.php:922
+msgid "Feeds"
+msgstr "Feeds"
+
+#: statcomm.php:481
+msgid "visitors"
+msgstr "visitantes"
+
+#: statcomm.php:482
+msgid "pageviews"
+msgstr "Páginas vistas"
+
+#: statcomm.php:483
+msgid "spiders"
+msgstr "rastreadores"
+
+#: statcomm.php:484
+msgid "feeds"
+msgstr "feeds"
+
+#: statcomm.php:515
+msgid "Last hits"
+msgstr "Últimos accesos"
+
+#: statcomm.php:515
+msgid "(hover IP to get spy information)"
+msgstr "(pasar el mouse sobre el IP para obtener info espía)"
+
+#: statcomm.php:516
+#: statcomm.php:656
+#: statcomm.php:687
+#: statcomm.php:717
+#: statcomm.php:777
+#: statcomm.php:842
+#: statcomm.php:1427
+msgid "Date"
+msgstr "Fecha"
+
+#: statcomm.php:517
+#: statcomm.php:657
+#: statcomm.php:688
+#: statcomm.php:718
+#: statcomm.php:778
+#: statcomm.php:843
+msgid "Time"
+msgstr "Hora"
+
+#: statcomm.php:518
+#: statcomm.php:984
+#: statcomm.php:1429
+msgid "IP"
+msgstr "IP"
+
+#: statcomm.php:521
+msgid "Flag"
+msgstr "Bandera"
+
+#: statcomm.php:522
+msgid "Region"
+msgstr "Region"
+
+#: statcomm.php:523
+msgid "City"
+msgstr "Ciudad"
+
+#: statcomm.php:525
+msgid "Domain"
+msgstr "Dominio"
+
+#: statcomm.php:526
+#: statcomm.php:779
+#: statcomm.php:845
+#: classes/utilities.php:60
+#: classes/utilities.php:82
+#: classes/utilities.php:89
+#: classes/utilities.php:111
+msgid "Page"
+msgstr "Página"
+
+#: statcomm.php:527
+#: statcomm.php:722
+#: statcomm.php:781
+msgid "OS"
+msgstr "S.O."
+
+#: statcomm.php:528
+msgid "Browser/<br/>Engine"
+msgstr "Navegador/<br/>Motor"
+
+#: statcomm.php:529
+msgid "Version<br/>Number"
+msgstr "Version<br/>Numero"
+
+#: statcomm.php:530
+msgid "Feed"
+msgstr "Feed"
+
+#: statcomm.php:654
+msgid "Last search terms"
+msgstr "Últimos términos buscados"
+
+#: statcomm.php:658
+msgid "Terms"
+msgstr "Términos"
+
+#: statcomm.php:659
+msgid "Engine"
+msgstr "Motor"
+
+#: statcomm.php:660
+#: statcomm.php:690
+msgid "Result"
+msgstr "Resultado"
+
+#: statcomm.php:686
+msgid "Last referrers"
+msgstr "Últimas procedencias"
+
+#: statcomm.php:716
+msgid "Last agents"
+msgstr "Últimos agentes"
+
+#: statcomm.php:719
+#: statcomm.php:846
+#: statcomm.php:977
+msgid "Agent"
+msgstr "Agente"
+
+#: statcomm.php:720
+#, fuzzy
+msgid "Agent Type"
+msgstr "Agente"
+
+#: statcomm.php:724
+#, fuzzy
+msgid "Browser/Engine"
+msgstr "Navegador"
+
+#: statcomm.php:725
+#: statcomm.php:784
+msgid "Br.Version"
+msgstr "Version Nav."
+
+#: statcomm.php:726
+#: statcomm.php:844
+#: statcomm.php:983
+msgid "Spider"
+msgstr "Rastreador"
+
+#: statcomm.php:775
+msgid "Last pages"
+msgstr "Últimas páginas"
+
+#: statcomm.php:783
+#: statcomm.php:919
+#: statcomm.php:982
+msgid "Browser"
+msgstr "Navegador"
+
+#: statcomm.php:840
+msgid "Last spiders"
+msgstr "Últimos rastreadores"
+
+#: statcomm.php:870
+msgid "StatPress table size"
+msgstr "Tamaño de tabla de datos StatPress"
+
+#: statcomm.php:871
+msgid "StatPress current time"
+msgstr "Hora actual de StatPress"
+
+#: statcomm.php:872
+msgid "RSS2 url"
+msgstr "Enlace de RSS2"
+
+#: statcomm.php:873
+msgid "ATOM url"
+msgstr "Enlace de Atom"
+
+#: statcomm.php:874
+msgid "RSS url"
+msgstr "Enlace de RSS"
+
+#: statcomm.php:875
+msgid "COMMENT RSS2 url"
+msgstr "Enlace de comentarios por RSS2"
+
+#: statcomm.php:876
+msgid "COMMENT ATOM url"
+msgstr "Enlace de comentarios por Atom"
+
+#: statcomm.php:913
+msgid "Top days"
+msgstr "Días más activos"
+
+#: statcomm.php:916
+msgid "O.S."
+msgstr "Sistema operativo"
+
+#: statcomm.php:925
+msgid "Search engines"
+msgstr "Motores de búsqueda"
+
+#: statcomm.php:928
+msgid "Top search terms"
+msgstr "Términos más buscados"
+
+#: statcomm.php:931
+msgid "Top referrer"
+msgstr "Procedencia más activa"
+
+#: statcomm.php:934
+msgid "Countries (domains)"
+msgstr "Países (dominios)"
+
+#: statcomm.php:940
+msgid "Top pages"
+msgstr "Páginas más activas"
+
+#: statcomm.php:944
+msgid "Top Days - Unique visitors"
+msgstr "Días más activos, en visitantes únicos"
+
+#: statcomm.php:947
+msgid "Top Days - Pageviews"
+msgstr "Días más activos, en páginas vistas"
+
+#: statcomm.php:950
+msgid "Top IPs - Pageviews"
+msgstr "IPs más activos, en páginas vistas"
+
+#: statcomm.php:976
+msgid "URL Requested"
+msgstr "Enlace solicitado"
+
+#: statcomm.php:978
+msgid "Referrer"
+msgstr "Procedencia"
+
+#: statcomm.php:979
+msgid "Search terms"
+msgstr "Términos de búsqueda"
+
+#: statcomm.php:980
+msgid "Search engine"
+msgstr "Motor de búsquedas"
+
+#: statcomm.php:981
+msgid "Operative system"
+msgstr "Sistema operativo"
+
+#: statcomm.php:994
+msgid "Field"
+msgstr "Campo"
+
+#: statcomm.php:1009
+msgid "Group by"
+msgstr "Agrupar por"
+
+#: statcomm.php:1010
+msgid "Sort by"
+msgstr "Ordenar por"
+
+#: statcomm.php:1011
+msgid "if contains"
+msgstr "si contiene"
+
+#: statcomm.php:1025
+msgid "sort by count if grouped"
+msgstr "ordenar por frecuencia si viene agrupado"
+
+#: statcomm.php:1031
+msgid "include spiders/crawlers/bot"
+msgstr "incluir spiders/crawlers/bot"
+
+#: statcomm.php:1037
+msgid "include feed"
+msgstr "incluir feed"
+
+#: statcomm.php:1043
+msgid "SELECT DISTINCT"
+msgstr ""
+
+#: statcomm.php:1052
+msgid "Limit results to"
+msgstr "Limitar los resultados a"
+
+#: statcomm.php:1162
+msgid "Results"
+msgstr "Resultados"
+
+#: statcomm.php:1176
+#: statcomm.php:1430
+msgid "Count"
+msgstr "Frecuencia"
+
+#: statcomm.php:1261
+msgid "Visits"
+msgstr "Visitas"
+
+#: statcomm.php:1425
+msgid "Unknown User Agents"
+msgstr "Agentes desconocidos"
+
+#: statcomm.php:1428
+msgid "Last Time"
+msgstr "Última vez"
+
+#: statcomm.php:1431
+msgid "User Agent"
+msgstr "Agente del usuario"
+
+#: classes/geoipcity.php:290
+msgid "Africa"
+msgstr "Africa"
+
+#: classes/geoipcity.php:291
+msgid "Asia"
+msgstr "Asia"
+
+#: classes/geoipcity.php:292
+msgid "Europe"
+msgstr "Europa"
+
+#: classes/geoipcity.php:293
+msgid "North America"
+msgstr "Norte America"
+
+#: classes/geoipcity.php:294
+msgid "South America"
+msgstr "Sud America"
+
+#: classes/geoipcity.php:295
+msgid "Oceania"
+msgstr "Oceania"
+
+#: classes/geoipcity.php:296
+msgid "Antartica"
+msgstr "Antartida"
+
+#: classes/geoipupdate.php:42
+msgid "<h2>Gelocation Database Download</h2>"
+msgstr "<h2>Bajar base de Geolocalización</h2>"
+
+#: classes/geoipupdate.php:47
+msgid "Updating current local Maxmind GeoLiteCity database"
+msgstr "Actualizando la base de datos Maxmind GeoLiteCity actual"
+
+#: classes/geoipupdate.php:52
+msgid "Preparing a first time install of the Maxmind GeoLiteCity database"
+msgstr "Preparando primera instalación de la base de datos Maxmind GeoLiteCity"
+
+#: classes/geoipupdate.php:74
+msgid "Client error: unable to retrieve file date from server (curl no supported) "
+msgstr "Error a nivel del cliente: imposible de recuperar la fecha del archivo desde el servidor (no hay soporte de curl)"
+
+#: classes/geoipupdate.php:75
+msgid "Your server does not have curl activated"
+msgstr "Su servidor no tiene curl activado"
+
+#: classes/geoipupdate.php:100
+msgid "Skipped checking (only once every "
+msgstr "Se omite chequeo (solo una vez cada"
+
+#: classes/geoipupdate.php:101
+#, fuzzy
+msgid " days)"
+msgstr "Días más activos"
+
+#: classes/geoipupdate.php:112
+msgid "Return to Options menu"
+msgstr "Volver al menu de opciones"
+
+#: classes/geoipupdate.php:121
+msgid "GeoliteCity size is about 10 MB."
+msgstr "La base de datos GeoliteCity mide alrededor de 10MB"
+
+#: classes/geoipupdate.php:122
+msgid "The download time depends on your server download speed."
+msgstr "El tiempo de bajada depende de la velocidad de bajada de su servidor."
+
+#: classes/geoipupdate.php:123
+msgid "A timeout can happen if the download takes more than 2 minutes."
+msgstr "Un timeout puede producirse si la bajada demora mas de 2 minutos"
+
+#: classes/geoipupdate.php:124
+msgid "Getting file from server..."
+msgstr "Obteniendo el archivo desde el servidor..."
+
+#: classes/geoipupdate.php:145
+msgid "Could not save gzip file to disk or file not found. Permissions problems?"
+msgstr "No se pudo salvar el archivo gzip a disco o el archivo no se encuentra. Posible problema de permisos?"
+
+#: classes/geoipupdate.php:157
+msgid "Could not save GeoLiteCity.dat to disk or file not found. Permissions problems?"
+msgstr "No se pudo salvar GeoLiteCity.dat a disco o el archivo no se encuentra. Posible problema de permisos?"
+
+#: classes/geoipupdate.php:161
+msgid "GeoLiteCity.dat successfully saved and ready to use"
+msgstr "GeoLiteCity.dat exitosamente guardado y pronto para usarse"
+
+#: classes/geoipupdate.php:183
+#, fuzzy, php-format
+msgid "Server error when retrieving file:(%d) - %s"
+msgstr "Error en el servidor al recuperar el archivo: ($code) - $errMsg"
+
+#: classes/geoipupdate.php:189
+#, fuzzy, php-format
+msgid "Client error when retrieving file:(%d) - %s"
+msgstr "Error del cliente al recuperar el archiv:($code) - $errMsg"
+
+#: classes/geoipupdate.php:200
+msgid "You have the latest available Maxmind GeoLiteCity database"
+msgstr "Tienes la base de datos Maxmind GeoLiteCity más reciente"
+
+#: classes/geoipupdate.php:205
+#, php-format
+msgid "Maxmind database last update was about %d days ago (checked against file date on the server)"
+msgstr "La última actualización de la base de datos Maxmind fue hace %d días (chequeado contra el archivo en el servidor)"
+
+#: classes/geoipupdate.php:208
+#, php-format
+msgid "You updated to the current GeoLiteCity database on %s (%d days ago)"
+msgstr "Te actualizaste a la version actual de la base GeoLiteCity en %s (hace %d días)"
+
+#: classes/geoipupdate.php:209
+msgid "No new updates are available today."
+msgstr "No hay nuevas actualizaciones hoy."
+
+#: classes/geoipupdate.php:220
+msgid "PHP Memory Limit is unknown, increase is not available."
+msgstr "El límite de memoria PHP es desconocido, el incremento no está disponible."
+
+#: classes/geoipupdate.php:224
+#, php-format
+msgid "PHP Memory Limit is %1$s, temporarily increasing to %2$s "
+msgstr "El límite de memoria PHP es %1$s, incrementandola temporalmente a %2$s"
+
+#: classes/geoipupdate.php:228
+msgid "completed."
+msgstr "completado."
+
+#: classes/geoipupdate.php:230
+msgid "failed."
+msgstr "falló."
+
+#: classes/geoipupdate.php:235
+#, php-format
+msgid "PHP Memory Limit is %s, increasing is not needed."
+msgstr "El límite de memoria PHP es %s, el incremento no es necesario."
+
+#: classes/settings.php:42
+#, fuzzy
+msgid "Save Settings"
+msgstr "Guardar opciones"
+
+#: classes/settings.php:59
+msgid "<h2>StatComm Settings Options</h2>"
+msgstr "<h2>Opciones de StatComm</h2>"
+
+#: classes/settings.php:64
+#, fuzzy
+msgid "Also collect data about logged users"
+msgstr "Registrar también datos de usuarios autenticados."
+
+#: classes/settings.php:67
+msgid "Do not collect spiders visits"
+msgstr "No registrar datos de rastreadores"
+
+#: classes/settings.php:70
+msgid "Automatically delete visits older than"
+msgstr "Automáticamente borrar las visitas anteriores al"
+
+#: classes/settings.php:73
+#, fuzzy
+msgid "Automatically delete spiders older than"
+msgstr "Borrar automáticamente visitas de rastreadores más antiguos que"
+
+#: classes/settings.php:76
+msgid "Days in Overview graph"
+msgstr "Días en el gráfico del Sumario"
+
+#: classes/settings.php:79
+msgid "Min. allowed access"
+msgstr "Acceso mínimo permitido"
+
+#: classes/settings.php:82
+msgid "User-Agent-String DB download refresh period"
+msgstr "Período de refresco de descarga de la base de Agente de Usuario"
+
+#: classes/settings.php:85
+msgid "Check to enable User-Agent-String DB download service"
+msgstr "Chequear para habilitar el servicio de bajada de la base de datos de Agente de Usuario"
+
+#: classes/settings.php:88
+msgid "Check to enable Maxmind Geolocation service"
+msgstr "Chequear para habilitar el servicio de Geolocalización de Maxmind"
+
+#: classes/settings.php:91
+msgid "How many days to spy back"
+msgstr "Cuantos días a espiar hacia atrás"
+
+#: classes/settings.php:95
+msgid "How many result in the spy list"
+msgstr "Cuantos resultados en la lista de espía"
+
+#: classes/settings.php:111
+msgid "Component Checking"
+msgstr "Chequeo de componentes"
+
+#: classes/settings.php:112
+msgid "Status"
+msgstr "Estado"
+
+#: classes/settings.php:141
+msgid "Checking if ZipArchive class is available (used for unpackage database)"
+msgstr "Chequeando si la clase ZipArchive esta disponible (usado para desempaquetar la base de datos)"
+
+#: classes/settings.php:144
+msgid "Checking if folder def is writable (used for save UAS database)"
+msgstr "Chequeando si la carpeta def es de escritura (usado para salvar la base de datos UAS)"
+
+#: classes/settings.php:147
+msgid "Current User Agent String DB Download Service is"
+msgstr "El servicio de base de datos de Agente de Usuario es"
+
+#: classes/settings.php:150
+msgid "Current User Agent String DB version"
+msgstr "Version de la base de datos de Agente de Usuario"
+
+#: classes/settings.php:153
+msgid "Statcomm will update User Agent String DB in"
+msgstr "StatComm actualizará la base de Agentes de Usuario"
+
+#: classes/settings.php:245
+msgid "Need help about roles?"
+msgstr "¿Necesita ayuda acerca de los roles?"
+
+#: classes/settings.php:296
+msgid "  Maxmind database installed and ready to go. "
+msgstr " Base de datos Maxmind instalada y pronta para usarse."
+
+#: classes/settings.php:298
+msgid "Check if you need to update (it will start automatically)"
+msgstr "Chequear si necesita actualizar (comenzará automáticamente)"
+
+#: classes/settings.php:302
+msgid "  You need to install Maxmind database to get started."
+msgstr " Necesitará instalar la base de datos Maxmind para comenzar."
+
+#: classes/settings.php:304
+msgid "Click to proceed (it will start automatically)"
+msgstr "Click aqui para comenzar (se inicia automáticamente)"
+
+#: classes/settings.php:317
+msgid "2 days (default)"
+msgstr "2 días (valor por defecto)"
+
+#: classes/settings.php:318
+#, fuzzy
+msgid "1 week"
+msgstr "semana"
+
+#: classes/settings.php:319
+#, fuzzy
+msgid "1 month"
+msgstr "mes"
+
+#: classes/settings.php:320
+msgid "1 year (are you sure?)"
+msgstr "1 año (está seguro?)"
+
+#: classes/settings.php:330
+msgid " Spy Tool:This setting defines how many days go back in the past looking for activity user."
+msgstr "Herramienta Espía: este setting permite definir cuantos días retroceder en el pasado para buscar una actividad de un usuario."
+
+#: classes/settings.php:336
+msgid "5 results (default)"
+msgstr "5 resultados (valor por defecto)"
+
+#: classes/settings.php:337
+#, fuzzy
+msgid "10 results"
+msgstr "Resultados"
+
+#: classes/settings.php:338
+#, fuzzy
+msgid "15 results"
+msgstr "Resultados"
+
+#: classes/settings.php:339
+#, fuzzy
+msgid "20 results"
+msgstr "Resultados"
+
+#: classes/settings.php:349
+msgid " Spy Tool:How many activity results when looking back for a user."
+msgstr "Herramienta Espía: definir cuantos resultados máximos mostrar al buscar un usuario."
+
+#: classes/statcommspy.php:40
+#: classes/statcommspy.php:177
+msgid "This feature needs Maxmind database enabled. Check the plugins options."
+msgstr "Esta característica requiere la base Maxmind habilitada para funcionar. Consultar las opciones del plugin."
+
+#: classes/statcommspy.php:119
+msgid "more info"
+msgstr "más info"
+
+#: classes/statcommspy.php:123
+msgid " Operative System (family / type): "
+msgstr "Sistema Operativo (familia / tipo)"
+
+#: classes/statcommspy.php:124
+msgid " Browser (family / type): "
+msgstr "Navegador (familia / tipo)"
+
+#: classes/statcommspy.php:125
+msgid "Continent / Country / Region / City: "
+msgstr "Continente / País / Región / Ciudad:"
+
+#: classes/statcommspy.php:127
+msgid "Latitude / Longitude : "
+msgstr "Latitiud / Longitud :"
+
+#: classes/statcommspy.php:128
+msgid "Host: "
+msgstr ""
+
+#: classes/statcommspy.php:129
+#, fuzzy
+msgid "Agent: "
+msgstr "Agente"
+
+#: classes/statcommspy.php:147
+#: classes/statcommspy.php:151
+#: classes/statcommspy.php:324
+msgid "arrived from"
+msgstr "llegado desde"
+
+#: classes/statcommspy.php:147
+#: classes/statcommspy.php:328
+msgid "searching"
+msgstr "buscando"
+
+#: classes/statcommspy.php:193
+#, php-format
+msgid "Error: no info for rec: %s"
+msgstr "Error: no hay información para el registro: %s"
+
+#: classes/statcommspy.php:241
+msgid "Latitude/Longitude"
+msgstr "Latitud/Longitud"
+
+#: classes/statcommspy.php:248
+msgid "Host:"
+msgstr ""
+
+#: classes/statcommspy.php:263
+msgid "Not available (robot)"
+msgstr "No disponible (robot)"
+
+#: classes/statcommspy.php:268
+msgid "Other: libraries, WebKit, monitor network,etc. "
+msgstr "Otros: librerías, WebKit, monitoreo de red, etc."
+
+#: classes/statcommspy.php:273
+msgid "Feed Reader"
+msgstr "Lector de Novedades"
+
+#: classes/statcommspy.php:278
+#, php-format
+msgid "Feed Reader (%s)"
+msgstr "Lector de Novedades (%s)"
+
+#: classes/statcommspy.php:282
+msgid "OS & Browser: Not enough data"
+msgstr "SO y Navegador: sin información suficiente"
+
+#: classes/statcommspy.php:296
+#, php-format
+msgid "No other activity since last %s days<br/> (max.%s results) "
+msgstr "Sin otra actividad desde los últimos %s días<br/>(%s resultados max.)"
+
+#: classes/statcommspy.php:303
+#, php-format
+msgid "Recent Activity in the last %s days<br/> (%s max.results)"
+msgstr "Reciente actividad en los últimos %s días<br/>(%s resultados max.)"
+
+#: classes/utilities.php:64
+#: classes/utilities.php:93
+msgid "Category"
+msgstr "Categoría"
+
+#: classes/utilities.php:68
+msgid "Calendar"
+msgstr "Calendario"
+
+#: classes/widget_print.php:15
+msgid "Allows to use dynamic variables in your HTML code"
+msgstr "Permitir el uso de variables dinámicas en su código HTML"
+
+#: classes/widget_print.php:63
+msgid "Your title here"
+msgstr "Su título aquí"
+
+#: classes/widget_print.php:64
+msgid "Visits today: %visits%"
+msgstr "Visitas hoy: %visits%"
+
+#: classes/widget_print.php:69
+msgid "Available variables"
+msgstr "Variables disponibles"
+
+#: classes/widget_print.php:71
+msgid "%browser% - Browser"
+msgstr "%browser% - Navegador"
+
+#: classes/widget_print.php:72
+msgid "%ip% - IP address"
+msgstr "%ip% - dirección IP"
+
+#: classes/widget_print.php:73
+msgid "%latesthits% - 10 latest hits"
+msgstr "%latesthits% - últimos 10 registros"
+
+#: classes/widget_print.php:74
+#, fuzzy
+msgid "%os% - Operative system"
+msgstr "Sistema operativo"
+
+#: classes/widget_print.php:75
+#, fuzzy
+msgid "%pagestoday% - Pageviews today"
+msgstr "Días más activos, en páginas vistas"
+
+#: classes/widget_print.php:76
+msgid "%pagesyesterday% - Pageviews yesterday"
+msgstr "%pagesyesterday% - Páginas vistas ayer"
+
+#: classes/widget_print.php:77
+msgid "%since% - Date of the first hit"
+msgstr "%since% - Fecha de la primer visita"
+
+#: classes/widget_print.php:78
+msgid "%thistotalpages% - All pageviews so far"
+msgstr "%thistotalpages% - Total de vistas de páginas hasta ahora"
+
+#: classes/widget_print.php:79
+msgid "%thistotalvisits% - This page, total visits"
+msgstr "%thistotalvisits% - Total de visitas en esta página"
+
+#: classes/widget_print.php:80
+msgid "%toppost% - The most viewed Post"
+msgstr "%toppost% - La entrada más vista"
+
+#: classes/widget_print.php:81
+msgid "%topbrowser% - The most used Browser"
+msgstr "%topbrowser% - El navegador más usado"
+
+#: classes/widget_print.php:82
+msgid "%topos% - The most used O.S."
+msgstr "%topos% - El sistema operativo más usado"
+
+#: classes/widget_print.php:83
+msgid "%totalvisits% - Total visits"
+msgstr "%totalvisits% - Visitas totales"
+
+#: classes/widget_print.php:84
+msgid "%usersonline% - Logged online visitors"
+msgstr "%usersonline% - Visitantes en línea logueados"
+
+#: classes/widget_print.php:85
+msgid "%visits% - Today visits"
+msgstr "%visits% - Visitas hoy"
+
+#: classes/widget_print.php:86
+msgid "%visitorsonline% - All online visitors"
+msgstr "%visitorsonline% - Total de visitantes en línea"
+
+#: classes/widget_print.php:91
+#: classes/widget_toppost.php:77
+msgid "Title:"
+msgstr "Título:"
+
+#: classes/widget_print.php:93
+#, fuzzy
+msgid "Body text:"
+msgstr "Cuerpo:"
+
+#: classes/widget_toppost.php:19
+msgid "Show Top Posts from your blog"
+msgstr "Mostrar las entrada más relevantes de su blog"
+
+#: classes/widget_toppost.php:69
+msgid "Your title here..."
+msgstr "Tu título aquí..."
+
+#: classes/widget_toppost.php:79
+#, fuzzy
+msgid "Limit results to:"
+msgstr "Limitar los resultados a"
+
+#: classes/widget_toppost.php:81
+msgid "Show Visitor Numbers:"
+msgstr "Mostrar cifras de visitantes:"
+
+#: classes/widget_toppost.php:113
+msgid "No results.</br>"
+msgstr "No hay resultados.</br>"
+
+#~ msgid "Saved"
+#~ msgstr "Guardado"
+
+#~ msgid "Never delete!"
+#~ msgstr "¡Nunca!"
+
+#~ msgid "months"
+#~ msgstr "meses"
+
+#~ msgid "year"
+#~ msgstr "año"
+
+#~ msgid "page viewed"
+#~ msgstr "página vista"
+
+#~ msgid "URL"
+#~ msgstr "Enlace"
+
+#~ msgid "What"
+#~ msgstr "Cuál"
+
+#~ msgid "done"
+#~ msgstr "listo"
+
+#~ msgid "Updated"
+#~ msgstr "Actualizado"
+
+#~ msgid "StatPressUpdate"
+#~ msgstr "Actualizar BD de StatPress"
+
+#~ msgid "day"
+#~ msgstr "día"
+
+#~ msgid "Minimum capability to view stats"
+#~ msgstr "Capacidades mínimas para ver estadísticas"
+
+#~ msgid "Threat"
+#~ msgstr "Peligrosidad"
+
+#~ msgid "Updating table struct"
+#~ msgstr "Actualizando la estructura de la tabla de datos"
+
+#~ msgid "Updating Feeds"
+#~ msgstr "Actualizando los feeds"
+
+#~ msgid "Updating OS"
+#~ msgstr "Actualizando la lista de S.O."
+
+#~ msgid "Updating Browsers"
+#~ msgstr "Actualizando lista de navegadores"
+
+#~ msgid "Updating Spiders"
+#~ msgstr "Actualizando lista de rastreadores"
+
+#~ msgid "Updating Search engines"
+#~ msgstr "Actualizando lista de motores de búsqueda"
+
+#~ msgid "null-ed"
+#~ msgstr "reiniciado"
+
+#~ msgid "select-ed"
+#~ msgstr "seleccionado"
+
+#~ msgid "Title"
+#~ msgstr "Título"

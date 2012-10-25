@@ -1,0 +1,572 @@
+# Translation of the WordPress plugin Snapshot 1.0 Beta 1 by Paul Menard (Incsub).
+# Copyright (C) 2012 Paul Menard (Incsub)
+# This file is distributed under the same license as the Snapshot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Snapshot 1.0 Beta 1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/snapshot\n"
+"POT-Creation-Date: 2012-02-11 13:43-0600\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/class_database_tools.php:47
+msgid "There was an error writing a line to the backup script:"
+msgstr ""
+
+#: lib/class_database_tools.php:122
+msgid "Error getting table details"
+msgstr ""
+
+#: snapshot.php:79
+msgid "Snapshots"
+msgstr ""
+
+#: snapshot.php:227 snapshot.php:1373
+msgid "Settings"
+msgstr ""
+
+#: snapshot.php:248
+msgctxt "page label"
+msgid "Snapshots"
+msgstr ""
+
+#: snapshot.php:249
+msgctxt "menu label"
+msgid "Snapshots"
+msgstr ""
+
+#: snapshot.php:257
+msgctxt "page label"
+msgid "Add New Snapshot"
+msgstr ""
+
+#: snapshot.php:258
+msgctxt "menu label"
+msgid "Add New"
+msgstr ""
+
+#: snapshot.php:265
+msgctxt "page label"
+msgid "All Snapshots"
+msgstr ""
+
+#: snapshot.php:266
+msgctxt "menu label"
+msgid "All Snapshots"
+msgstr ""
+
+#: snapshot.php:273
+msgctxt "page label"
+msgid "Snapshots Activity log"
+msgstr ""
+
+#: snapshot.php:274
+msgctxt "menu label"
+msgid "Activity log"
+msgstr ""
+
+#: snapshot.php:281
+msgctxt "page label"
+msgid "Snapshots Settings"
+msgstr ""
+
+#: snapshot.php:282
+msgctxt "menu label"
+msgid "Settings"
+msgstr ""
+
+#: snapshot.php:308
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: snapshot.php:313
+msgid "The Snapshot has been updated."
+msgstr ""
+
+#: snapshot.php:314
+msgid "The Snapshot has been created."
+msgstr ""
+
+#: snapshot.php:315
+msgid "The Snapshot has been deleted."
+msgstr ""
+
+#: snapshot.php:316
+msgid "The Snapshot has been restored."
+msgstr ""
+
+#: snapshot.php:317
+msgid "Settings have been update."
+msgstr ""
+
+#: snapshot.php:360
+msgid "Folder Location"
+msgstr ""
+
+#: snapshot.php:448
+msgctxt "Snapshot New Page Title"
+msgid "Add New Snapshot"
+msgstr ""
+
+#: snapshot.php:449
+msgctxt "Snapshot page description"
+msgid ""
+"Use this form to create a new snapshot of your site. Fill in the optional "
+"Name and Notes fields. Select the tables to be included in this snapshot."
+msgstr ""
+
+#: snapshot.php:469 snapshot.php:1002 snapshot.php:1160
+msgid "Snapshot Information"
+msgstr ""
+
+#: snapshot.php:475 snapshot.php:629 snapshot.php:783 snapshot.php:1008
+#: snapshot.php:1166
+msgid "Name"
+msgstr ""
+
+#: snapshot.php:480 snapshot.php:1012
+msgid "Give this snapshot a name"
+msgstr ""
+
+#: snapshot.php:485 snapshot.php:631 snapshot.php:785 snapshot.php:1017
+#: snapshot.php:1174
+msgid "Notes"
+msgstr ""
+
+#: snapshot.php:490 snapshot.php:1021
+msgid "Description about the configuration before the snapshot."
+msgstr ""
+
+#: snapshot.php:501
+msgid "Tables &ndash; WordPress core"
+msgstr ""
+
+#: snapshot.php:540
+msgid "Tables &ndash; other"
+msgstr ""
+
+#: snapshot.php:576
+msgid "Create Snapshot"
+msgstr ""
+
+#: snapshot.php:613
+msgctxt "Snapshot New Page Title"
+msgid "All Snapshots"
+msgstr ""
+
+#: snapshot.php:614
+msgctxt "Snapshot page description"
+msgid ""
+"This is a listing of all Snapshots created within your site. To delete a "
+"snapshot set the checkbox then click the 'Delete Snapshots' button below the "
+"listing. To restore a snapshot click the 'Restore' button for that snapshot. "
+"To edit a snapshot click the name of the snapshot"
+msgstr ""
+
+#: snapshot.php:627
+msgid "Delete"
+msgstr ""
+
+#: snapshot.php:628 snapshot.php:657
+msgid "Restore"
+msgstr ""
+
+#: snapshot.php:630 snapshot.php:784
+msgid "Date"
+msgstr ""
+
+#: snapshot.php:632 snapshot.php:786
+msgid "User"
+msgstr ""
+
+#: snapshot.php:633
+msgid "Download"
+msgstr ""
+
+#: snapshot.php:684 snapshot.php:827
+#, php-format
+msgid "show %d core"
+msgstr ""
+
+#: snapshot.php:690 snapshot.php:833
+#, php-format
+msgid "show %d non-core"
+msgstr ""
+
+#: snapshot.php:720 snapshot.php:1080 snapshot.php:1084
+#, php-format
+msgid ""
+"Snapshot file %s is missing! The file cannot be found in the snapshots "
+"backup folder."
+msgstr ""
+
+#: snapshot.php:736
+msgid "No Snapshots"
+msgstr ""
+
+#: snapshot.php:741
+msgid "Delete Snapshots"
+msgstr ""
+
+#: snapshot.php:764
+msgctxt "Snapshot Activity Page Title"
+msgid "Snapshots Activity Log"
+msgstr ""
+
+#: snapshot.php:765
+msgctxt "Snapshot page description"
+msgid ""
+"This page shows the latest actions taken against any snapshot for this site. "
+"You will see a record for each action: add, update, restore or delete."
+msgstr ""
+
+#: snapshot.php:782
+msgid "Action"
+msgstr ""
+
+#: snapshot.php:860
+msgid ""
+"No Snapshot activity yet. Now is a good time to create your first snapshot."
+msgstr ""
+
+#: snapshot.php:884
+msgctxt "Snapshot Plugin Page Title"
+msgid "Snapshots Settings"
+msgstr ""
+
+#: snapshot.php:885
+msgctxt "Snapshot page description"
+msgid ""
+"The Settings panel provides access to a number of configuration options you "
+"can customize to meet you site needs."
+msgstr ""
+
+#: snapshot.php:928
+msgctxt "Snapshot page description"
+msgid ""
+"Set a destination folder for your snapshots. This folder will be created "
+"inside your site's media upload folder."
+msgstr ""
+
+#: snapshot.php:933
+msgid "Backup Folder"
+msgstr ""
+
+#: snapshot.php:938
+#, php-format
+msgid ""
+"Default folder is %s. If you change the folder name the previous snapshot "
+"files will be moved to the new folder."
+msgstr ""
+
+#: snapshot.php:941
+msgid "Current folder"
+msgstr ""
+
+#: snapshot.php:947
+msgid "Save Settings"
+msgstr ""
+
+#: snapshot.php:982
+msgctxt "Snapshot Plugin Page Title"
+msgid "Edit Snapshot"
+msgstr ""
+
+#: snapshot.php:983
+msgctxt "Snapshot page description"
+msgid ""
+"Use this form to update the Name or Notes for a previous snapshot. Also, "
+"provided is a link you can use to download the snapshot for sharing or "
+"archiving."
+msgstr ""
+
+#: snapshot.php:1027 snapshot.php:1182
+msgid "Created on"
+msgstr ""
+
+#: snapshot.php:1035 snapshot.php:1190
+msgid "Created by"
+msgstr ""
+
+#: snapshot.php:1052 snapshot.php:1206
+msgid "Tables"
+msgstr ""
+
+#: snapshot.php:1059
+msgid "Tables included in this snapshot:"
+msgstr ""
+
+#: snapshot.php:1069
+msgid "File Link"
+msgstr ""
+
+#: snapshot.php:1090
+msgid ""
+"Below is the Link to the Snapshot file in case you need to download or share."
+msgstr ""
+
+#: snapshot.php:1107
+msgid "Update Snapshot"
+msgstr ""
+
+#: snapshot.php:1138
+msgctxt "Snapshot Plugin Page Title"
+msgid "Restore Snapshot"
+msgstr ""
+
+#: snapshot.php:1140
+msgid ""
+"You are about to restore a previous version of your WordPress database. This "
+"will remove any new information added since the snapshot backup."
+msgstr ""
+
+#: snapshot.php:1141
+msgctxt "Snapshot page description"
+msgid ""
+"On this page you can restore a previous snapshot. Using the 'Restore "
+"Options' section below you can also opt to turn off all plugins as well as "
+"switch to a different theme as part of the restore."
+msgstr ""
+
+#: snapshot.php:1213
+msgid "Tables contained in this snapshot:"
+msgstr ""
+
+#: snapshot.php:1223
+msgid "Restore Options"
+msgstr ""
+
+#: snapshot.php:1229
+msgid "Plugins"
+msgstr ""
+
+#: snapshot.php:1233
+msgid "Turn off all plugins"
+msgstr ""
+
+#: snapshot.php:1238
+msgid "Set a theme to active"
+msgstr ""
+
+#: snapshot.php:1269 snapshot.php:1341
+msgid "Restore Snapshot"
+msgstr ""
+
+#: snapshot.php:1274
+#, php-format
+msgid ""
+"Unable to restore because snapshot file %s is not found in the snapshot "
+"backup folder."
+msgstr ""
+
+#: snapshot.php:1308
+msgid "Overview"
+msgstr ""
+
+#: snapshot.php:1309
+msgid ""
+"The Snapshot plugin provides the ability to create quick on-demand backups "
+"or snapshots of your WordPress site database. You can create as many "
+"snapshots as needed. The Snapshot plugin also provides the ability to "
+"restore a snapshot."
+msgstr ""
+
+#: snapshot.php:1317
+msgid "New Snapshot"
+msgstr ""
+
+#: snapshot.php:1318
+msgid ""
+"<strong>Name</strong> - Provide a custom name for this snapshot. Default "
+"name is \"snapshot\"."
+msgstr ""
+
+#: snapshot.php:1319
+msgid ""
+"<strong>Notes</strong> - Add some optional notes about the snapshot. Maybe "
+"some details on what plugins or theme were active. Or some note before you "
+"activate some new plugin."
+msgstr ""
+
+#: snapshot.php:1320
+msgid ""
+"<strong>Table &ndash; WordPress core</strong> - This section lists all the "
+"core WordPress tables for your site."
+msgstr ""
+
+#: snapshot.php:1321
+msgid ""
+"<strong>Table &ndash; other</strong> - This section lists other tables "
+"within your database which are not core tables. These tables could have been "
+"created and used by some of the plugins you have installed."
+msgstr ""
+
+#: snapshot.php:1333
+msgid "Edit Snapshot"
+msgstr ""
+
+#: snapshot.php:1334
+msgid ""
+"On the Edit Snapshot panel you can rename or add notes to the snapshot item. "
+"Also provided is a link to the snapshot file which you can download and "
+"archive to your local system."
+msgstr ""
+
+#: snapshot.php:1342
+msgid ""
+"From this screen you can restore a snapshot. The restore will reload the "
+"database export into you current live site. Each table selected during the "
+"snapshot creation will be emptied before the snapshot information is loaded. "
+"It is important to understand this restore will be removing and new "
+"information added since the snapshot."
+msgstr ""
+
+#: snapshot.php:1343
+msgid ""
+"On the restore screen you will see a section for \"Restore Option\". The "
+"details for each option are discussed below"
+msgstr ""
+
+#: snapshot.php:1344
+msgid ""
+"<strong>Turn off all plugins</strong> - As part of the restore process you "
+"can automatically deactivate all plugins. This is helpful if you had trouble "
+"with a plugin and are trying to return your site back to some stable state."
+msgstr ""
+
+#: snapshot.php:1345
+msgid ""
+"<strong>Set a theme to active</strong> - Similar to the Plugins option you "
+"can select to have a specific theme set to active as part of the restore "
+"process. Again, this is helpful if you installed a new theme that broke your "
+"site and you want to return your site back to a stable state."
+msgstr ""
+
+#: snapshot.php:1352
+msgid "All Snapshots"
+msgstr ""
+
+#: snapshot.php:1353
+msgid ""
+"All of your snapshots are listed here. Within the listing there are a number "
+"of options you can take."
+msgstr ""
+
+#: snapshot.php:1354
+msgid ""
+"<strong>Delete</strong> - On each row you will see a checkbox. To delete a "
+"snapshot or multiple snapshots check the box then click the blue \"Delete "
+"Snapshots\" button below the listing."
+msgstr ""
+
+#: snapshot.php:1355
+msgid ""
+"<strong>Restore</strong> - The Restore button on each snapshot row will take "
+"you to a new screen where you can select from other options prior to "
+"performing a restore of the snapshot."
+msgstr ""
+
+#: snapshot.php:1356 snapshot.php:1366
+msgid ""
+"<strong>Edit</strong> - To Edit a snapshot click on the snapshot name. You "
+"will be taken to a page where you can edit the Name and/or Notes "
+"information. The tables selected when your created the snapshot are not "
+"editable. "
+msgstr ""
+
+#: snapshot.php:1364
+msgid "Activity Log"
+msgstr ""
+
+#: snapshot.php:1365
+msgid ""
+"The Activity log shows the last 30 actions add, update, delete and restore "
+"performed relating to all snapshots. If you have multiple admins this can "
+"help if you need to see if someone else restored a snapshot."
+msgstr ""
+
+#: snapshot.php:1374
+msgid ""
+"The Settings panel provides access to a number of configuration settings you "
+"can customize to meet you site needs."
+msgstr ""
+
+#: snapshot.php:1375
+msgid ""
+"<strong>Backup Folder</strong> - By default the snapshot files are stored "
+"under your site's /wp-content/uploads/ directory in a new folder named "
+"'snapshots'. If for some reason you already use a folder of this name you "
+"can set a different folder name to be used. If you change the folder name "
+"after some snapshots have been generated these files will be moved to the "
+"new folder. Note you cannot move the folder outside the /wp-content/uploads/ "
+"directory."
+msgstr ""
+
+#: snapshot.php:1404
+msgid "Delete snapshot"
+msgstr ""
+
+#: snapshot.php:1455
+msgid "ERROR: You must select at least one table for the Snapshot"
+msgstr ""
+
+#: snapshot.php:1497 snapshot.php:2319
+msgid "Added snapshot"
+msgstr ""
+
+#: snapshot.php:1533
+msgid "Update snapshot"
+msgstr ""
+
+#: snapshot.php:1580 snapshot.php:2207
+msgid "ERROR: The Snapshot folder is not writeable. Check the settings"
+msgstr ""
+
+#: snapshot.php:1610
+msgid "Restore snapshot "
+msgstr ""
+
+#: snapshot.php:1651
+msgid "ERROR: Snapshot backup file does not exist "
+msgstr ""
+
+#: snapshot.php:1998
+msgid ""
+"ERROR: Cannot create snapshot folder. Check that the parent folder is "
+"writeable"
+msgstr ""
+
+#: snapshot.php:2013
+msgid "ERROR: The Snapshot destination folder is not writable"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Snapshot"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://premium.wpmudev.org/project/snapshot"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin allows you to take quick on-demand backup snapshots of your "
+"working WordPress database. You can select from the default WordPress tables "
+"as well as custom plugin tables within the database structure. All snapshots "
+"are logged, and you can restore the snapshot as needed."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Paul Menard (Incsub)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://premium.wpmudev.org/"
+msgstr ""

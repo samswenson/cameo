@@ -1,0 +1,37 @@
+<div class='wrap'>
+    <h2>{{title}}</h2>
+    <table class='widefat'>
+        <thead>
+            <tr>
+                <th scope='col'>{{date}}</th>
+                <th scope='col'>{{time}}</th>
+                <th scope='col'>{{page}}</th>
+                <th scope='col'>{{agent}}</th>
+                <th scope='col'>{{agent_type}}</th>
+                <th scope='col'></th>
+                <th scope='col'>{{os}}</th>
+                <th scope='col'></th>
+                <th scope='col'>{{browser}}</th>
+                <th scope='col'>{{browser_version}}</th>
+                <th scope='col'>{{spider}}</th>
+            </tr>
+        </thead>
+     <tbody id='the-list'>
+
+{{#rows}}
+         <tr>
+             <td>{{date}}</td>
+             <td>{{time}}</td>
+             <td><a title='{{url}}' href='{{url_requested}}' target='_blank'>{{url_ellipsis}}</a></td>
+             <td title='{{agent}}'>{{agent_ellipsis}}</td>
+             <td>{{ua_type}}</td>
+             <td>{{{os_icon}}}</td>
+             <td><a href='{{os_url}}' target='_blank'>{{os_name}}</a></td>
+             <td>{{{ua_icon}}}</td>
+             <td><a href='{{ua_info_url}}' target='_blank'>{{ua_family}}</a></td>
+             <td>{{ua_version}}</td>
+             <td>{{spider}}</td>
+         </tr>
+{{/rows}}
+     </table>
+</div>

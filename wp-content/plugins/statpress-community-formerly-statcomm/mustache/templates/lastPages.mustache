@@ -1,0 +1,31 @@
+<div class='wrap'><h2>{{title}}</h2>
+     <table class='widefat'>
+         <thead>
+         <tr>
+             <th scope='col'>{{date}}</th>
+             <th scope='col'>{{time}}</th>
+             <th scope='col'>{{page}}</th>
+             <th scope='col'></th>
+             <th scope='col'>{{os}}</th>
+             <th scope='col'></th>
+             <th scope='col'>{{browser}}</th>
+             <th scope='col'>{{brversion}}</th>
+         </tr>
+         </thead>
+
+         <tbody id='the-list'>
+
+        {{#rows}}
+        <tr>
+            <td>{{date}}</td>
+            <td>{{time}}</td>
+            <td title="{{url}}"><a href="{{url}}" target="_blank">{{url_shortened}}</a></td>
+            <td>{{{os_icon}}}</td>
+            <td><a href="{{os_url}}" target="_blank">{{os_name}}</a> </td>
+            <td>{{{ua_icon}}}</td>
+            <td><a href="{{ua_info_url}}" target="_blank">{{ua_family}}</a></td>
+            <td title="{{agent}}">{{ua_version}}</td>
+        </tr>
+        {{/rows}}
+     </table></div>
+

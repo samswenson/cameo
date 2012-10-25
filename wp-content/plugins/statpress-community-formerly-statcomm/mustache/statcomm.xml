@@ -1,0 +1,12 @@
+<!--Statcomm main page view module-->
+<root>
+    <module>tableOverview</module>
+    <module>drawChart</module>
+    <module>lastHits</module>
+    <module>lastPages</module>
+    <module>lastSearchTerms</module>
+    <module>lastReferrers</module>
+    <module>lastAgents</module>
+    <module>footerMainPage</module>
+
+</root>

@@ -1,0 +1,23 @@
+<div class='wrap'>
+    <h2>Statistics time and queries for all modules rendered</h2>
+    <table class='widefat'>
+        <thead>
+        <tr>
+            <th scope='col'>Module</th>
+            <th scope='col'>Time</th>
+            <th scope='col'>Number Queries</th>
+            <th scope='col'>Cached Queries</th>
+        </tr>
+        </thead>
+        <tbody id='the-list'>
+
+        {{#rows}}
+        <tr>
+            <td>{{module}}</td>
+            <td>{{time}}</td>
+            <td>{{queries}}</td>
+            <td>{{cached}}</td>
+        </tr>
+        {{/rows}}
+    </table>
+</div>

@@ -1,0 +1,87 @@
+#icon-statcomm
+{
+    background-image: url(../images/statcomm-48x48.png);
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-color: transparent;
+
+}
+
+.statcomm-logo
+{
+    position:absolute;
+    top:2px;
+    right:2px;
+    height: 32px;
+   /* width: 32px;*/
+
+}
+
+
+.scError
+{
+    background-color: #FFFFA3;
+}
+
+/***tooltip****/
+
+/* Tooltip style*/
+.tooltip-country
+{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.tooltip-aligncenter
+{
+    text-align: center;
+}
+
+.tooltip-alignleft
+{
+    text-align: left;
+}
+
+.tooltip-alignright
+{
+    text-align: right;
+}
+
+.tooltip-searchengine
+{
+
+}
+
+.tooltip-latlong
+{
+    font-weight: bold;
+}
+
+.tooltip-referrer
+{
+
+}
+
+.tooltip-time
+{
+    font-weight: bold;
+}
+
+.tooltip-url
+{
+
+}
+
+.tooltip-recent-activity-title
+{
+    height: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.tooltip-regionname
+{
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}

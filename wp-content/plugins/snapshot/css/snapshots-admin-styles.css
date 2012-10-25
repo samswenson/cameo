@@ -1,0 +1,106 @@
+.snapshot-warning p, p.snapshot-warning {
+	font-weight: bold;
+}
+
+.snapshot-error p, p.snapshot-error, .widefat p.snapshot-error {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.snapshot-wrap ul.snapshot-table-list li {
+/*	width: 33%; */
+	width: 25%;
+	float: left;
+}
+
+.snapshot-wrap table.widefat {
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+
+.snapshot-wrap table.widefat td {
+	padding: 6px 7px;
+}
+
+.snapshot-wrap table.widefat th.snapshot-col-delete { width: 4%; }
+.snapshot-wrap table.widefat th.snapshot-col-restore { width: 5%; }
+.snapshot-wrap table.widefat th.snapshot-col-name { width: 10%; }
+.snapshot-wrap table.widefat th.snapshot-col-date { width: 12%; }
+.snapshot-wrap table.widefat th.snapshot-col-notes { width: 30%; }
+.snapshot-wrap table.widefat th.snapshot-col-user { width: 7%; }
+.snapshot-wrap table.widefat th.snapshot-col-file { width: 15%; }
+
+.snapshot-wrap table.widefat th.snapshot-col-details { width: 15%; }
+.snapshot-wrap table.widefat th.snapshot-col-details { width: 15%; }
+
+.snapshot-wrap table.widefat th.snapshot-col-delete,
+.snapshot-wrap table.widefat td.snapshot-col-delete {
+	text-align: center;
+}
+
+#icon-snapshot.icon32 {
+	background: url(../images/icon/greyscale-36.png) center center no-repeat;
+	height: 36px;
+	width: 36px;
+}
+
+#snapshot-progress-bar-container {
+	width: 623px;
+}
+
+#snapshot-progress-bar-container .snapshot-item {
+    border-color: #DFDFDF;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: -1px;
+    min-height: 36px;
+    position: relative;
+    width: 100%;
+}
+
+#snapshot-progress-bar-container .snapshot-item .progress {
+    background: -moz-linear-gradient(center bottom , #FFFFFF 0pt, #F7F7F7 100%) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+    float: right;
+    height: 22px;
+    line-height: 2em;
+    margin: 6px 10px 2px 0;
+    overflow: hidden;
+    padding: 0;
+    width: 200px;
+}
+
+#snapshot-progress-bar-container .snapshot-item .progress .percent {
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0 8px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    width: 200px;
+    z-index: 10;
+}
+
+#snapshot-progress-bar-container .snapshot-item .progress .bar {
+    background-color: #83B4D8;
+    background-image: -moz-linear-gradient(center bottom , #72A7CF 0pt, #90C5EE 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    margin-top: -24px;
+    width: 0;
+    z-index: 9;
+    border-right-color: #9999DD;
+}
+
+#snapshot-progress-bar-container .snapshot-item .snapshot-text {
+    height: 34px;
+    position: relative;
+    line-height: 36px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+/* 63094-1329271527 */
+
+/* 32008-1330389188 */

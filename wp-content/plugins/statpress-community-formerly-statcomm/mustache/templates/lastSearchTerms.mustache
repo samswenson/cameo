@@ -1,0 +1,24 @@
+<div class='wrap'>
+    <h2>{{lastsearchterms}}</h2>
+    <table class='widefat'>
+            <thead>
+            <tr>
+                <th scope='col'>{{date}}</th>
+                <th scope='col'>{{time}}</th>
+                <th scope='col'>{{terms}}</th>
+                <th scope='col'>{{engine}}</th>
+                <th scope='col'>{{result}}</th>
+            </tr>
+        </thead>
+    <tbody id='the-list'>
+    {{#rows}}
+        <tr>
+            <td>{{date}}</td>
+            <td>{{time}}</td>
+            <td title='{{referrer}}'><a href='{{referrer}}'>{{search}}</a></td>
+            <td>{{searchengine}}</td>
+            <td title='{{url_requested}}'><a href='{{url_requested}}'>{{url_req_ellipsis}}</a></td>
+        </tr>
+    {{/rows}}
+    </table>
+</div>

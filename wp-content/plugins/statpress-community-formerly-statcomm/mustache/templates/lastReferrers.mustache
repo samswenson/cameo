@@ -1,0 +1,22 @@
+ <div class='wrap'>
+     <h2>{{title}}</h2>
+     <table class='widefat'>
+         <thead>
+         <tr>
+             <th scope='col'>{{date}}</th>
+             <th scope='col'>{{time}}</th>
+             <th scope='col'>{{from}}</th>
+             <th scope='col'>{{result}}</th>
+         </tr>
+         </thead>
+     <tbody id='the-list'>
+{{#rows}}
+     <tr>
+         <td>{{date}}</td>
+         <td >{{time}}</td>
+         <td title='{{referrer}}'><a target='_blank' href='{{referrer}}'>{{referrer_ellipsis}}</a></td>
+         <td title='{{url}}'><a href='{{url}}'>{{url_ellipsis}}</a></td>
+     </tr>
+{{/rows}}
+     </table>
+ </div>

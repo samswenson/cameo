@@ -1,0 +1,20 @@
+<div class='wrap'>
+<table width="100%" border="0">
+    <tr>
+    {{#rows}}
+    <td width="{{column_width}}" valign="bottom">
+    <div style='float:left;height: 100%;width:100%;font-family:Helvetica;font-size:7pt;text-align:center;border-right:1px solid white;color:black;'>
+    <div style='background:#ffffff;width:100%;height:{{px_white}}px;'></div>
+    <div style='background:{{unique_color}};width:100%;height:{{px_visitors}}px;'  title='{{visitors}} {{visitorsText}}'></div>
+    <div style='background:{{web_color}}   ;width:100%;height:{{px_pageviews}}px;' title='{{pageviews}} {{pageviewsText}}'></div>
+    <div style='background:{{spider_color}};width:100%;height:{{px_spiders}}px;'   title='{{spiders}} {{spidersText}}'></div>
+    <div style='background:{{rss_color}}   ;width:100%;height:{{px_feeds}}px;'     title='{{feeds}} {{feedsText}}'></div>
+    <div style='background:{{error_color}} ;width:100%;height:{{px_errors}}px;'    title='{{errors}} {{errorsText}}'></div>
+    <div style='background:gray;width:100%;height:1px;'></div>
+    <div title='{{column_label}}'><br />{{day_number}} {{month_name}}</div>
+    <div>{{{linkReport}}}</div>
+    </div></td>
+    {{/rows}}
+    </tr>
+</table>
+</div>

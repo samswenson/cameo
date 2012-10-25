@@ -1,0 +1,48 @@
+<div class='statcomm-logo'><a target="_blank" href="#CNT_SITE#">#CNT_SITE_TITLE#<img src="#CNT_LOGO#"/></a></div>
+<div>
+<table>
+<tr>
+<td>
+    <table width="100%">
+	<tr>
+		<td class='tooltip-aligncenter'>#CNT_FLAG#</td>
+		<td class='tooltip-country'>#CNT_COUNTRY#</td>
+	</tr>
+	<tr>
+		<td colspan='2' class='tooltip-regionname'>#CNT_CONTINENT# , #CNT_REGION# , #CNT_CITY#</td>
+	</tr>
+	<tr>
+		<td colspan='2' class='tooltip-aligncenter'>#CNT_HOST_TITLE# #CNT_HOST#</td>
+	</tr>
+	<tr>
+		#CNT_AGENT#
+	</tr>
+	<tr><td colspan='2' class='tooltip-recent-activity-title'>#CNT_RA_TITLE#</td></tr>
+	#CNT_ACTIVITY#
+</table>
+</td>
+    <td>
+        <table>
+            <tr>
+                <td class='tooltip-alignleft'>#CNT_LATLONG_TITLE#</td>
+            </tr>
+            <tr>
+                <td class='tooltip-latlong tooltip-alignleft'>(#CNT_LAT# , #CNT_LONG#)</td>
+            </tr>
+
+            <tr><td class='sc-map-#CNT_REC_ID#' title='#CNT_LAT#,#CNT_LONG#' ></td></tr>
+        </table>
+    </td>
+
+</tr>
+</table>
+</div>
+<!--Statcomm Tooltip format
+Comments:
+CNT_AGENT: include information about browser and Operative system
+This content has to be in the format <td>content</td><td>content</td> or <td colspan='2'>content</td>
+CNT_ACTIVITY: Complete <tr><td>content</td><td>content</td></tr> or <tr><td colspan='2'>content</td></tr>
+Note: the comments are filtered before processing (for some reason,comments on the header disable the tooltip)
+TODO: restrict link width
+TODO (future) change icon in google map
+-->

@@ -1,0 +1,20 @@
+Plugin Name: Snapshot
+Author: Paul Menard (Incsub)
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.0.1 - 2012-02-15
+----------------------------------------------------------------------
+- Fixed bug in timestamp display for UTC timezones. When selecting UTC-7 for example the time displayed remained GMT 0.
+- Fixed bug in table display on Multisite primary site. On the primary site all tables for all sites were being displayed. 
+- Fixed bug in uninstall processing used when the plugin delete action is taken from Plugin menu.
+
+1.0.0 - 2012-02-09
+----------------------------------------------------------------------
+- Initial stable release
+
+63094-1329271527
+
+32008-1330389188

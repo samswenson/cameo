@@ -1,0 +1,11 @@
+<div class='wrap'><h2>{{title}}</h2>
+    <form method=get>
+        <table>
+            <tr><td>{{from}}</td><td><input type=text name=from> {{format}}</td></tr>
+            <tr><td>{{to}}  </td><td><input type=text name=to> {{format}}</td></tr>
+            <tr><td>{{delimiters}}</td><td><select name=del><option>;</option><option>,</option><option>|</option></select></tr>
+            <tr><td></td><td><input type=submit value={{export}}></td></tr>
+            <input type=hidden name=page value=statpress><input type=hidden name=statcomm_action value=exportnow>
+        </table>
+    </form>
+</div>

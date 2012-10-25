@@ -1,0 +1,39 @@
+<div class='wrap'><h2>{{lastHits}}<font color='#e0e0e0'>{{lastHitsMsg}}</font></h2><table class='widefat'>
+    <thead>
+    <tr>
+    <th scope='col'>{{date}}</th>
+    <th scope='col'>{{time}}</th>
+    <th scope='col'>{{ip}}</th>
+    <th scope='col'>{{flag}}</th>
+    <th scope='col'>{{region}}</th>
+    <th scope='col'>{{city}}</th>
+    <th scope='col'>{{domain}}</th>
+    <th scope='col'>{{page}}</th>
+    <th></th><th scope='col'>{{os}}</th>
+    <th></th><th scope='col'>{{{browser}}}</th>
+    <th>{{{version}}}</th>
+    <th scope='col'>{{feed}}</th>
+    <th scope='col'>{{status}}</th>
+    </tr>
+    </thead>
+<tbody id='the-list'>
+{{#rows}}
+    <tr class='{{isError}}'>
+        <td>{{date}}</td>
+        <td>{{time}}</td>
+        <td><a href='#'  id='u{{id}}' class='ip' rel='{{id}}' >{{ip}}</a></td>
+        <td title='{{country_name}}'>{{{flag_icon}}}</td>
+        <td>{{region_name}}</td>
+        <td>{{city}}</td>
+        <td>{{nation}}</td>
+        <td><a title='{{url}}' href='{{url_requested}}' target='_blank'>{{url_ellipsis}}</a></td>
+        <td>{{{os_icon}}}</td>
+        <td title='{{os_url}}'><a href='{{os_url}}' target='_blank'>{{os}}</a></td>
+        <td>{{{ua_icon}}}</td>
+        <td title='{{agent}}'><a href='{{ua_info_url}}' target='_blank'>{{ua_family}}</a></td>
+        <td>{{ua_version}}</td>
+        <td>{{feed}}</td>
+        <td>{{statuscode}}</td>
+    </tr>
+{{/rows}}
+</table></div>
