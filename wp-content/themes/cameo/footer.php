@@ -40,7 +40,6 @@
 			</div>
 		</footer>
 		<footer id="main-footer-two">
-			<div class="center-wrap">
 				<p style="color: #fff">&copy;2012 Copyright Cameo Homes,</p><p>&nbsp;All rights reserved. Website designed by <a href="http://www.l7marketing.com" target="_blank">Level Seven Marketing</a>.</p>
 				<nav>
 					<a href="#">Home</a>
@@ -50,7 +49,6 @@
 					<a href="#">Blog</a>
 					<a href="#">Contact</a>
 				</nav>
-			</div>
 		</footer>
 		<?php wp_footer(); ?>
 	</body>
