@@ -20,3 +20,4 @@
 # specify (see the commented-out example for a hint on how to do this.)
 wp-content/themes/*
 # !wp-content/themes/cameo/
+wp-content/.DS_Store
